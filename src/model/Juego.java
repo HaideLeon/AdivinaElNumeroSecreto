@@ -61,7 +61,7 @@ public class Juego {
     public String getTextoDeAyuda(int numero){
         String texto = null; 
         if (this.numeroSecreto.esMayor (numero)== true){
-            texto = "mayo";
+            texto = "mayor";
         }
         else if (this.numeroSecreto.esMenor(numero)== true ){
             texto = "menor"; 

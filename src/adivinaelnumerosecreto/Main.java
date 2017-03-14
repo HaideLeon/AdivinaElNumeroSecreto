@@ -39,14 +39,14 @@ public class Main {
         } else {
             System.out.println ("Fallaste. El número secreto es " 
                     + juego.getTextoDeAyuda(numero)+ 
-                    "que el número proporcionado");
+                    " que el número proporcionado");
             
             System.out.println ("Intenta de nuevo.");
         
         }
         
     }
-        System.out.println ("El númeor secreto es" + juego.getNumeroSecreto());
+        System.out.println ("El númeor secreto es " + juego.getNumeroSecreto());
     
     
     } 
